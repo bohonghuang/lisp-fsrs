@@ -48,12 +48,13 @@
    #:parameters-request-retention
    #:parameters-maximum-interval
    #:parameters-weights
-   #:fsrs
-   #:make-fsrs
-   #:fsrs-p
-   #:copy-fsrs
-   #:fsrs-parameters
-   #:fsrs-review-card
-   #:fsrs-repeat))
+   #:parameters-dacay
+   #:parameters-factor
+   #:scheduler
+   #:make-scheduler
+   #:scheduler-p
+   #:copy-scheduler
+   #:scheduler-parameters
+   #:scheduler-review-card))
 
 (in-package #:lisp-fsrs)
